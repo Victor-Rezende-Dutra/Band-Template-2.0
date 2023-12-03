@@ -1,0 +1,40 @@
+.integrantes-body {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.grid-container-integrantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.subtitulo {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.primeiro-integrante, .segundo-integrante, .terceiro-integrante {
+    text-align: center;
+}
+
+.baixo, .vocal, .bateria {
+    height: 200px;
+    width: 230px;
+    border-radius: 50%;
+}
+
+.primeiro-integrante-texto, .segundo-integrante-texto, .terceiro-integrante-texto {
+    font-size: 17px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    margin: 40px;
+}

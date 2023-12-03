@@ -1,0 +1,24 @@
+/* COMTATO -------------------------------------------------------------------------*/
+
+.contato-body {
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagem-contato {
+    height: 100vh;
+}
+
+.contato-texto {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.contato-info {
+    font-size: 20px;
+}

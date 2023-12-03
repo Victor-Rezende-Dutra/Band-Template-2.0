@@ -1,0 +1,50 @@
+/* REPERTORIO ------------------------------------------------------*/
+
+.repertorio-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 10fr;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.falling {
+    width: 60vh;
+    height: 650px;
+}
+
+.repertorio-container {
+    grid-column: span 2;
+}
+
+.descricao-repertorio {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.repertorio-container-subtitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.texto-repertorio-container {
+    display: flex;
+    justify-content:left;
+    gap: 200px;
+}
+
+.repertorio-dois, .repertorio-um {
+    font-size: 17px;
+}
+
+
+
+

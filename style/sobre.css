@@ -1,0 +1,57 @@
+/* SOBRE-----------------------------------------------------------*/
+
+.sobre-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bio-texto, .objetivos-texto {
+    background-color: black;
+    margin: 20px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.905);
+    padding: 20px;
+    text-align: center;
+    display: block;
+    height: 80vh;
+}
+
+.bio-titulo, .objetivos-titulo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: text-shadow 0.3s ease;
+}
+
+.bio-titulo:hover, .objetivos-titulo:hover {
+    text-shadow: 1px -1px 1px #8721A1, -1px 1px 1px #0500A1;
+}
+
+.floral-imagem {
+    height: 350px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.floral-container {
+    grid-column-start: 3
+}
+
+.floral-imagem:hover {
+    opacity: 1;
+}
+
+.lyrics {
+    text-align: center;
+    grid-column-start: 3;
+    margin: 20px;
+    font-size: 12px;
+}
